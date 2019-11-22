@@ -1,0 +1,129 @@
+.m-001-login-box {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-width: 321px;
+  padding: 15px;
+  position: absolute;
+  width: 80%;
+}
+
+.m-001-input-block {
+  margin-top: 50px;
+}
+
+.m-001-input-block__modul-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 8px;
+  width: 145px;
+}
+
+.m-001-input-block__modul-field--password {
+  background: rgba(49, 35, 174, 0.192);
+  border-radius: 17px;
+  border: 0px;
+  cursor: pointer;
+  height: 23px;
+  margin-top: 8px;
+}
+
+.m-001-input-block__modul-field--password:hover {
+  background: rgba(49, 35, 174, 0.11);
+}
+
+.m-001-input-block__modul-field--user {
+  background: rgba(49, 35, 174, 0.192);
+  border: 0px;
+  border-radius: 17px;
+  cursor: pointer;
+  margin-top: 8px;
+  height: 23px;
+}
+
+.m-001-input-block__modul-field--user:hover {
+  background: rgba(49, 35, 174, 0.11);
+}
+
+.m-001-button-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+}
+
+.m-001-button-container__register {
+  background: linear-gradient(to bottom, #c86dd7 100%, #3023ae 5%);
+}
+
+.m-001-button-container__register:hover {
+  background: linear-gradient(to bottom, #3023ae 5%, #c86dd7 100%);
+  background-color: #415989;
+}
+
+.m-001-button-container__register:active {
+  position: relative;
+  top: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .m-001-login-box {
+    align-items: flex-start;
+  }
+
+  .m-001-input-block {
+    display: flex;
+  }
+
+  .m-001-input-block__modul-field--password {
+    background: rgba(201, 109, 215, 0.192);
+  }
+
+  .m-001-input-block__modul-field--password:hover {
+    background: rgba(201, 109, 215, 0.118);
+  }
+
+  .m-001-input-block__modul-field--user {
+    background: rgba(201, 109, 215, 0.192);
+  }
+
+  .m-001-input-block__modul-field--user:hover {
+    background: rgba(201, 109, 215, 0.118);
+  }
+
+  .m-001-input-block__modul-field:nth-child(n + 2) {
+    margin-left: 50px;
+  }
+
+  .m-001-button-container {
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .m-001-button-container__register {
+    margin-left: 50px;
+    margin-top: 0;
+  }
+
+  .m-001-output-block {
+    align-items: center;
+    background-color: red;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    min-width: 321px;
+    opacity: 0;
+    padding: 15px;
+    position: absolute;
+    transform: scale(0);
+    width: 80%;
+  }
+
+  .m-001-output-block__headline {
+    opacity: 0;
+  }
+}
