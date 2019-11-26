@@ -69,6 +69,25 @@
   top: 1px;
 }
 
+.m-001-output-block {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  min-width: 321px;
+  opacity: 0;
+  padding: 15px;
+  position: absolute;
+  transform: scale(0);
+  width: 80%;
+}
+
+.m-001-output-block__headline {
+  opacity: 0;
+}
+
 @media screen and (min-width: 768px) {
   .m-001-login-box {
     align-items: flex-start;
@@ -106,24 +125,5 @@
   .m-001-button-container__register {
     margin-left: 50px;
     margin-top: 0;
-  }
-
-  .m-001-output-block {
-    align-items: center;
-    background-color: #ffffff;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    height: 400px;
-    min-width: 321px;
-    opacity: 0;
-    padding: 15px;
-    position: absolute;
-    transform: scale(0);
-    width: 80%;
-  }
-
-  .m-001-output-block__headline {
-    opacity: 0;
   }
 }
